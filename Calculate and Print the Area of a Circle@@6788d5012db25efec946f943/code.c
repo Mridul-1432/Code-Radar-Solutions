@@ -5,8 +5,8 @@ char* welcome() {
 }
 
 int main() {
-    int radius;
-    scanf("%d",&radius);
-    printf("Area: %d",(3.14*radius*radius) );
+    float radius;
+    scanf("%f",&radius);
+    printf("Area: %f",(3.14*radius*radius) );
     return 0;
 }
