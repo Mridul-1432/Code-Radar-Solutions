@@ -5,12 +5,8 @@ char* welcome() {
 }
 
 int main() {
-    int a;
-    int b;
-    int c;
-    scanf("%d\t",&a);
-    scanf("%d\t",&b);
-    scanf("%d",&c);
+    int a,b,c;
+    scanf("%d %d %d",&a,&b,&c);
     printf("%d",(a+b+c)/3);
-        return 0;
+    return 0;
 }
