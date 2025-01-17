@@ -5,10 +5,10 @@ char* welcome() {
 }
 
 int main() {
-    int a;
+    float a;
     float b;
-    scanf("%d",&a);
+    scanf("%f",&a);
     scanf("%f",&b);
-    printf("Product: %.3f", a*b);
+    printf("Product: %f", a*b);
     return 0;
 }
