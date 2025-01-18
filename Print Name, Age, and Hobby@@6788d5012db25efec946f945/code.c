@@ -10,8 +10,8 @@ int main() {
     char hobby[100];
     scanf("%s %d \n",&nm,&age);
     scanf("%s",&hobby);
-    printf("Name: %s",nm);
-    printf("Age: %d",age);
+    printf("Name: %s \n",nm);
+    printf("Age: %d \n",age);
     printf("Hobby: %s",hobby);
     return 0;
 }
