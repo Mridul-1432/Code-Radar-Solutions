@@ -7,6 +7,6 @@ char* welcome() {
 int main() {
     char ltr;
     scanf("%c",&ltr);
-    printf("%d",ltr );
+    printf("ASCII Value: %d",ltr );
     return 0;
 }
