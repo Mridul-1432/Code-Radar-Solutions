@@ -9,6 +9,6 @@ int main() {
     char wrd1[100];
     scanf("%s \t",&wrd);
     scanf("%s",&wrd1);
-    printf("You entered: %s",wrd "and" wrd1 );
+    printf("You entered: %s",wrd,"and",wrd1 );
     return 0;
 }
