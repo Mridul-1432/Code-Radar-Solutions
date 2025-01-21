@@ -7,6 +7,10 @@ char* welcome() {
 int main() {
     int a,b;
     scanf("%d %d",&a,&b);
-    printf("%bool",a>b);
-    return 0;
+    if(a>b){
+        printf("True");}
+    else{
+        printf("False");
+    }
+        return 0;
 }
