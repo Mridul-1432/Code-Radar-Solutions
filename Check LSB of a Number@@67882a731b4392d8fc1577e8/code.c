@@ -8,7 +8,6 @@ int main() {
     int a;
     scanf("%d",&a);
     int LSB= a & 1;
-    printf("%s", welcome());
     if(LSB==1){
         printf("Set");
     }   
