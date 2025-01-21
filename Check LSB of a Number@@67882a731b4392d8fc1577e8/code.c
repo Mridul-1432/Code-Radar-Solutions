@@ -11,10 +11,7 @@ int main() {
     printf("%s", welcome());
     if(LSB==1){
         printf("Set");
-    }
-    else{
-        printf("Not Set");
-    }
-    }
-    return 0;
-}
+    }   
+     else{
+        printf("Not Set");}
+             return 0;}
