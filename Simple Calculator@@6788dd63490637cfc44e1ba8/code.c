@@ -11,29 +11,29 @@ int main() {
     scanf("%c",&c);
     switch(c){
         case '+':
-        result=a+b;
-        printf("%d",result);
-        break;
-        case '-':
-        result=a-b;
-        printf("%d",result);
-        break;
-        case '*':
-        result=a*b;
-        printf("%d",result);
-        break;
-        case '/':
-        result=a/b;
-        if(b!=0){
+            result=a+b;
             printf("%d",result);
-        }
-        else{
-            printf("error");
-        }
-        break;
+            break;
+        case '-':
+            result=a-b;
+            printf("%d",result);
+            break;
+        case '*':
+            result=a*b;
+            printf("%d",result);
+            break;
+        case '/':
+            result=a/b;
+            if(b!=0){
+                printf("%d",result);
+            }
+            else{
+                printf("error");
+            }
+            break;
         default:
-        printf("error");
-        break;
+            printf("error");
+            break;
 
     }
   
