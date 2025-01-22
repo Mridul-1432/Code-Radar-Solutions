@@ -18,7 +18,7 @@ int main() {
         printf("Wednesday");
     }
     else if(day==4){
-        printf("Thurdsday");
+        printf("Thursday");
     }
     else if(day==5){
         printf("Friday");
