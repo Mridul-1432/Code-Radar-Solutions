@@ -10,7 +10,7 @@ int main() {
     if(a<=0){
         printf(" Freezing");
     }
-    else if(a>0){
+    else{
         printf("Above Freezig");
     }
     return 0;
