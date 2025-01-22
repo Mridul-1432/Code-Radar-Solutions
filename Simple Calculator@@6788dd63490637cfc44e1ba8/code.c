@@ -18,9 +18,9 @@ int main() {
             printf("%d",result);
             break;
         case '/':
-            result==a/b;
+            float(result)==a/b;
             if(b!=0){
-                printf("%d",result);}
+                printf("%f",result);}
             else{
                 printf("error");}
             break;
