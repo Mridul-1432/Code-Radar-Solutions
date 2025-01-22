@@ -5,7 +5,7 @@ char* welcome() {
 }
 
 int main() {
-    int a,b;
+    int a,b,result;
     char c;
     scanf("%d %d",&a,&b);
     scanf("%c",&c);
