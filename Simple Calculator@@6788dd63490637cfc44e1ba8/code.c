@@ -11,17 +11,21 @@ int main() {
     scanf("%c",&c);
     switch(c){
         case '+':
-        printf("%d",a+b);
+        result=a+b;
+        printf("%d",result);
         break;
         case '-':
-        printf("%d",a-b);
+        result=a-b;
+        printf("%d",result);
         break;
         case '*':
-        printf("%d",a*b);
+        result=a*b;
+        printf("%d",result);
         break;
         case '/':
+        result=a/b;
         if(b!=0){
-            printf("%d",a/b);
+            printf("%d",result);
         }
         else{
             printf("error");
