@@ -12,7 +12,6 @@ int main() {
     }
     else if(alp>="A" && alp<="Z"){
         printf("Uppercase");
-
     }
     else{
         printf("Not an alphabet");
