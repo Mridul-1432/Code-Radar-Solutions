@@ -14,7 +14,7 @@ int main() {
         printf("Negative");
     }
     else{
-        print("Zero");
+        printf("Zero");
     }
     return 0;
 }
