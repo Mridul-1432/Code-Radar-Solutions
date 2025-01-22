@@ -5,16 +5,16 @@ char* welcome() {
 }
 
 int main() {
-    char alp;
-    scanf("%c",&alp);
-    if(alp>="A" && alp<="Z"){
+    char ch;
+    scanf("%c",&ch);
+    if(ch>='A' && ch<='Z'){
         printf("Uppercase");
     }
-    else if(alp>="a" && alp<="z"){
+    else if(ch>='a' && ch<='z'){
         printf("Lowercase");
     }
     else{
-        printf("Not an alphabet");
+        printf("Not an alphabet")
     }
     return 0;
 }
