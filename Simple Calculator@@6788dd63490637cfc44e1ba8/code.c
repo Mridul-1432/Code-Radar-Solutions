@@ -1,9 +1,4 @@
 #include <stdio.h>
-
-char* welcome() {
-    return "Welcome to Code Radar!";
-}
-
 int main() {
     int a,b,result;
     char c;
@@ -25,17 +20,12 @@ int main() {
         case '/':
             result=a/b;
             if(b!=0){
-                printf("%d",result);
-            }
+                printf("%d",result);}
             else{
-                printf("error");
-            }
+                printf("error");}
             break;
         default:
             printf("error");
-            break;
-
-    }
-  
+            break;}
     return 0;
 }
