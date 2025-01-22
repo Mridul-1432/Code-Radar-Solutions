@@ -12,7 +12,6 @@ int main() {
     }
     else if(day==2){
         printf("Tuesday");
-
     }
     else if(day==3){
         printf("Wednesday");
