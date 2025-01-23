@@ -3,27 +3,24 @@ int main() {
     int a,b;
     char c;
     scanf("%d %d %c",&a,&b,&c);
-    int s;
-    int p;
-    int x;
-    int y; 
+
     switch(c){
         case '+':
-            s=a+b;
-            printf("%d",s);
+            
+            printf("%d",a+b);
             break;
         case '-':
-            p=a-b;
-            printf("%d",p);
+          
+            printf("%d",a-b);
             break;
         case '*':
-            x=a*b;
-            printf("%d",x);
+        
+            printf("%d",a*b);
             break;
         case '/':
-            y=a/b;
+         
             if(b!=0){
-                printf("%d",y);}
+                printf("%d",a/b);}
             else{
                 printf("error");}
             break;
