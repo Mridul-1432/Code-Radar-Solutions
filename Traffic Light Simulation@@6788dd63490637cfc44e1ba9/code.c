@@ -6,7 +6,7 @@ char* welcome() {
 
 int main() {
     char a;
-    scanf("%C",&a);
+    scanf("%c",&a);
     switch(a){
         case "R":
         printf("Stop");
