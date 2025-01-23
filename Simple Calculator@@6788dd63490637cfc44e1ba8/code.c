@@ -1,8 +1,12 @@
 #include <stdio.h>
 int main() {
-    int a,b,s,p,y,x;
+    int a,b;
     int c;
     scanf("%d %d %d",&a,&b,&c);
+    int s;
+    int p;
+    int x;
+    int y; 
     switch(c){
         case '+':
             s=a+b;
