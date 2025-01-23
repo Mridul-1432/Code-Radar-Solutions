@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main() {
-    float a,b,s,p,y;
+    float a,b,s,p,y,x;
     char c;
     scanf("%d %d %c",&a,&b,&c);
     switch(c){
