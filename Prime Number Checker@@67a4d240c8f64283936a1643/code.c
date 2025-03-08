@@ -2,6 +2,8 @@
 int isPrime(int a){
    if(a%1==0 && a%a==0 && a%4!=0 && a%9!=0 && a%5!=0 && a%14 != 0)
    return 1;
+   else
+   return 0;
 }
 int main() {
     int a;
