@@ -9,7 +9,7 @@ int main() {
     }
     return 0;
 }
-int isPrime(int a){
+int isPrime(int num){
    if(a%1==0 && a%a==0 && a%4!=0 && a%9!=0 && a%5!=0 && a%14 != 0)
    return 1;
    else
